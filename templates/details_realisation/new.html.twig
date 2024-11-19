@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New DetailsRealisation{% endblock %}
+
+{% block body %}
+    <h1>Create new DetailsRealisation</h1>
+
+    {{ include('details_realisation/_form.html.twig') }}
+
+    <a href="{{ path('app_details_realisation_index') }}">back to list</a>
+{% endblock %}
